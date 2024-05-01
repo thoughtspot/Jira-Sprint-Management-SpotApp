@@ -53,9 +53,8 @@ from "<DATABASE NAME>"."<SCHEMA NAME>"."<SPRINT TABLE NAME>";
 ```
 
 ### Deployment
-After completing the prerequisites, you are ready to deploy the Jira Sprint Management SpotApp and begin leveraging its pre-built content.
+After completing the prerequisites, you are ready to deploy the SpotApp and begin leveraging its pre-built content.
 
-Implementation Steps
 Once you have downloaded the Zip file and verified its contents, follow these steps:
 
 Log into your ThoughtSpot instance and create an Embrace connection to all relevant views.
