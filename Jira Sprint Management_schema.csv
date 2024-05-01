@@ -1,0 +1,7 @@
+SpotApp table;SpotApp columns;SpotApp column datatype;SpotApp column description;SpotApp mandatory column
+JIRA_SPRINTS;CompleteDate;DATE_TIME;This describes the column CompleteDate;Yes
+JIRA_SPRINTS;EndDate;DATE_TIME;This describes the column EndDate;Yes
+JIRA_SPRINTS;Id;INT64;This describes the column Id;Yes
+JIRA_SPRINTS;Name;VARCHAR;This describes the column Name;Yes
+JIRA_SPRINTS;StartDate;DATE_TIME;This describes the column StartDate;Yes
+JIRA_SPRINTS;State;VARCHAR;This describes the column State;Yes
