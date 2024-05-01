@@ -31,7 +31,10 @@ BOARD_ID as OriginBoardId,
 START_DATE as StartDate,
 END_DATE as EndDate,
 COMPLETE_DATE as CompleteDate from "<DATABASE NAME>"."<SCHEMA NAME>"."<SPRINT TABLE NAME>";
+```
+If you moved your data using Fivetran, you must also run the following command. Replace DATABASE NAME, SCHEMA NAME, and SPRINT TABLE NAME with your specific information.
 
+```
 create or replace view "<DATABASE NAME>"."<SCHEMA NAME>"."JIRA_SPRINTS" as
 select
 ID as Id,
@@ -46,7 +49,7 @@ BOARD_ID as OriginBoardId,
 START_DATE as StartDate,
 END_DATE as EndDate,
 COMPLETE_DATE as CompleteDate
-from "<DATABASE NAME>"."<SCHEMA NAME>"."<SPRINT TABLE NAME>";
+from "<DATABASE NAME>"."<SCHEMA NAME>"."<SPRINT TABLE NAME>";```
 
 Deployment
 After completing the prerequisites, you are ready to deploy the Jira Sprint Management SpotApp and begin leveraging its pre-built content.
