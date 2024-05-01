@@ -57,7 +57,7 @@ After completing the prerequisites, you are ready to deploy the SpotApp and begi
 
 Once you have downloaded the Zip file and verified its contents, follow these steps:
 
-Log into your ThoughtSpot instance and create an Embrace connection to all relevant views.
-Import the TML for the worksheets and verify that it has all been imported without any errors.
-Import the TML for the pinboard and verify that it has been imported without any errors.
-You are ready to start searching your Jira data!
+- Log into your ThoughtSpot instance and create an Embrace connection to all relevant views.
+- Import the TML for the worksheets and verify that it has all been imported without any errors.
+- Import the TML for the pinboard and verify that it has been imported without any errors.
+- You are ready to start searching your Jira data!
