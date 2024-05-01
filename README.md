@@ -49,9 +49,10 @@ BOARD_ID as OriginBoardId,
 START_DATE as StartDate,
 END_DATE as EndDate,
 COMPLETE_DATE as CompleteDate
-from "<DATABASE NAME>"."<SCHEMA NAME>"."<SPRINT TABLE NAME>";```
+from "<DATABASE NAME>"."<SCHEMA NAME>"."<SPRINT TABLE NAME>";
+```
 
-Deployment
+### Deployment
 After completing the prerequisites, you are ready to deploy the Jira Sprint Management SpotApp and begin leveraging its pre-built content.
 
 Implementation Steps
